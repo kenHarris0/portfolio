@@ -318,10 +318,10 @@ I enjoy designing scalable APIs, structuring efficient databases, and building s
 
     {/* RIGHT SIDE FORM */}
     <form className="contact-form" action="https://api.web3forms.com/submit" method="POST">
-     <input type="hidden" name="access_key" value={import.meta.env.VITE_WEB3_ACCESS}></input>
+     <input type="hidden" name="access_key" value="55f7a9ac-0cfa-457e-b8f9-3bbba76179e0"></input>
      <input type="hidden"
          name="redirect"
-         value="http://localhost:5173" />
+         value="https://kenHarris0.github.io/portfolio/" />
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
       <textarea placeholder="Message..." name="message" required></textarea>
